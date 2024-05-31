@@ -44,13 +44,13 @@ $ pip install --upgrade pip
 $ pip install -r requirements.txt
 
 
-## Editing the Config file
+### Editing the Config file
 ip_address: 'IP_of_mobdus_enabled_Device'   # for example: '192.168.40.110'             
 telegram_token: 'your_telegram_bot_token'   # for example: '6357833747:AAG0fz5DvgyJRk6tGHpSpwxSfJktS2R_6W'
 telegram_chat_id: 'your_telegram_chat_id'   # for example: '65442345'
 
 
-## Running the Program
+### Running the Program
 on the directory that contains register_checker.py
 $ python register_checker.py
 
