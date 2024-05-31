@@ -34,14 +34,14 @@ For a more detailed tutorial on creating a Telegram bot and obtaining the token 
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/yourusername/modbus-tcp-scanner.git
-cd Modbus_scanner
+$ git clone https://github.com/yourusername/modbus-tcp-scanner.git
+$ cd Modbus_scanner
 
 
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
-pip install --upgrade pip
-pip install -r requirements.txt
+$ python -m venv venv
+$ source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
+$ pip install --upgrade pip
+$ pip install -r requirements.txt
 
 
 ## Editing the Config file
@@ -52,6 +52,6 @@ telegram_chat_id: 'your_telegram_chat_id'   # for example: '65442345'
 
 ## Running the Program
 on the directory that contains register_scanner.py
-python register_scanner.py
+$ python register_scanner.py
 
 
