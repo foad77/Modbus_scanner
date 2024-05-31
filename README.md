@@ -51,7 +51,7 @@ telegram_chat_id: 'your_telegram_chat_id'   # for example: '65442345'
 
 
 ## Running the Program
-on the directory that contains register_scanner.py
-$ python register_scanner.py
+on the directory that contains register_checker.py
+$ python register_checker.py
 
 
