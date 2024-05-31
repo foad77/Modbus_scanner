@@ -15,6 +15,21 @@ Reading reports through the command line is also not the most convenient way to 
 - Python 3.10.10
 - Virtual environment with necessary Python packages installed (see `requirements.txt`)
 
+### Setting Up a Telegram Bot
+
+To create a Telegram bot and obtain the necessary credentials, follow these steps:
+
+1. Open Telegram and search for the BotFather.
+
+2. Start a chat with the BotFather and send `/start`.
+
+3. Create a new bot by sending `/newbot` and follow the instructions to set the bot name and username.
+
+4. After creating the bot, you will receive a token. Save this token as `telegram_token` in your `config.yaml`.
+
+5. Get your chat ID by starting a chat with your bot and sending any message. Open the following URL in your browser: `https://api.telegram.org/bot<your-telegram-bot-token>/getUpdates`. Replace `<your-telegram-bot-token>` with your actual bot token. Look for the `chat` object in the response to find your chat ID.
+For a more detailed tutorial on creating a Telegram bot and obtaining the token and chat ID, refer to [this tutorial](https://core.telegram.org/bots#3-how-do-i-create-a-bot).
+
 ## Installation
 
 ### Clone the Repository
